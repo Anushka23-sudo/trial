@@ -1,0 +1,100 @@
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    padding: 0px;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex--container{
+   border: 3px solid black;
+   margin:12rem;
+   height: 17rem;
+   width: 26rem;
+   padding:2rem;
+   background-color: hsl(244, 38%, 16%);
+}
+.flex-container1{
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2.1rem;
+    font-family: 'Inter', sans-serif;
+    color:hsl(0, 0%, 100%);
+}    
+.flex-container1 span{
+    color:hsl(277, 64%, 61%);
+}
+.flex-container2{
+    justify-content: space-around;
+    font-weight: 300;
+    font-size: 1rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Inter', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75)
+}
+
+.flex-container3{
+    display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem; 
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.6);
+}
+.one{
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.two{
+    margin-left: 4rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.three{
+    margin-left: 4rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+}
+.one span{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+.two span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.three span{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+}
+.img-container {
+    position: absolute;
+    left:40rem;
+    top:10rem;
+    display:flex;
+   margin:2.2rem;
+   width: 25.39rem;
+justify-content:space-between;
+    background-color:hsl(277, 64%, 61%);
+  
+}
+.img-container img{
+    height: 21rem;
+    mix-blend-mode: soft-light;
+   
+}
+@media screen and (max-width: 768px){
+  
+}

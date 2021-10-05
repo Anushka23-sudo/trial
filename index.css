@@ -6,9 +6,10 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+section{
+    padding-left: 3.5rem;
+}
 .flex--container{
-   border: 3px solid black;
    margin:12rem;
    height: 17rem;
    width: 26rem;
@@ -81,17 +82,18 @@ body{
 }
 .img-container {
     position: absolute;
-    left:40rem;
-    top:10rem;
+    left:43.2rem;
+    top:9.87rem;
     display:flex;
    margin:2.2rem;
-   width: 25.39rem;
+   width: 28rem;
 justify-content:space-between;
     background-color:hsl(277, 64%, 61%);
   
 }
 .img-container img{
-    height: 21rem;
+    width: 28rem;
+    height: 20.99rem;
     mix-blend-mode: soft-light;
    
 }
